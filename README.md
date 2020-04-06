@@ -50,7 +50,7 @@ Now that we have our database, let's generate the corrections for our given word
 
 Optimization is key, so we will pre-slice our word only one time rather than for each type of error.
 
-Make a list of the word separated in two at each index
+Make a list of the word separated in two at each index.
 Given the word 'tset', the output of your function should be :
 ```
 [
@@ -62,9 +62,9 @@ Given the word 'tset', the output of your function should be :
 ]
 ```
 
-It will give you a left and a right part
+It will give you a list of left and right parts
 
-Now, let's add the first type of correction : removing. Just remove the first letter of each right part (caution crashes on the last one, it is empty !)
+Now, let's add the first type of correction : removing. Just remove the first letter of each right part (beware of crashes on the last one, it is empty !)
 
 The next one is adding a letter, same as above, you can add it to the start of the right part, except you have to iterate through all the letter of the alphabet.
 
@@ -74,7 +74,7 @@ Do the same as removing, except you add a letter of the alphabet in the middle.
 We finish with a more tedious one : swapping.
 Just swap the last letter of the left part with the first letter of the right part (same as removing and replacing: don't forget that some of those strings are empty !)
 
-All we have to do is merge all of those corrections and keep only valid words by checking if they are present our database.
+All we have to do now is merge all of those corrections and keep only valid words by checking if they are present in our database.
 
 And that's it !
 
