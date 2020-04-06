@@ -42,7 +42,7 @@ You can notice that the correct word is present in this list. As reproducing all
 
 ## 5. Time to code !
 
-Let's begin with some parsing. Words are only separated by newlines, then it should not be difficult for you.
+Let's begin with some parsing. Words in our dictionnary are only separated by newlines, then it should not be difficult for you.
 
 You should use a O(1) access data container, like map or dictionnary/set in order to keep your program fast.
 
