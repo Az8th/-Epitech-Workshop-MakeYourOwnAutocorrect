@@ -83,7 +83,7 @@ And that's it !
 Congratulations, you've made your first autocorrect, now you can enhance it by yourself.
 
 You could make it :
-- Harder : Propose the most probable word adding words frequency (you can use the providedfrequency.txt based on the https://www.wordfrequency.info/ website. Words are listed in order of appearance)
+- Harder : Propose the most probable word by adding words frequency checking (you can use the providedfrequency.txt based on the https://www.wordfrequency.info/ website. Words are listed in order of appearance)
 - Better : Add more languages
 - Faster : Implement it in a compiled language (C, Go...)
 - Stronger : Implement deeper distance reseach (2+ type errors)
